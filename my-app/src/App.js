@@ -1,5 +1,5 @@
 import './App.css';
-import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+// import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NestingComponents from './components/NestingComponents';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -7,6 +7,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import EventsClass from './components/EventsClass';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} />
       <ConditionalRenderingClass /> */}
       {/* <NestingComponents/> */}
-      <MethodsAsPropsParent />
+      {/* <MethodsAsPropsParent /> */}
+      <RenderingLists />
     </div>
   );
 }
