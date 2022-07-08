@@ -7,11 +7,13 @@ import './App.css';
 // import EventsClass from './components/EventsClass';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM.js';
+import LifeCyclesCDMChild from './components/LifeCyclesCDMChild';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <FunctionalGreetingWithProps greeting="nice to meet you!" name="Mike" age="32" />
       <StatefulGreeting greeting="I'm a stateful class component!" name="Louw"/>
       < EventsFunctional />
@@ -20,7 +22,9 @@ function App() {
       <ConditionalRenderingClass /> */}
       {/* <NestingComponents/> */}
       {/* <MethodsAsPropsParent /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <LifeCyclesCDM />
+      <LifeCyclesCDMChild />
     </div>
   );
 }
