@@ -1,5 +1,6 @@
 import './App.css';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import UncontrolledForm from './components/UncontrolledForm';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NestingComponents from './components/NestingComponents';
@@ -12,6 +13,8 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/LifeCyclesCDM.js';
 // import LifeCyclesCDMChild from './components/LifeCyclesCDMChild';
+// import ControlledForm from './components/ControlledForm';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -28,7 +31,10 @@ function App() {
       {/* <LifeCyclesCDM />
       <LifeCyclesCDMChild /> */}
       {/* <LifeCyclesCDU/> */}
-      <LifeCyclesCWU/>
+      {/* <LifeCyclesCWU/> */}
+      {/* <ControlledForm/> */}
+      {/* <UncontrolledForm/> */}
+      <SearchBar/>
     </div>
   );
 }
