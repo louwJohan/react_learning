@@ -1,4 +1,6 @@
 import './App.css';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NestingComponents from './components/NestingComponents';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
@@ -8,8 +10,8 @@ import './App.css';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import RenderingLists from './components/RenderingLists';
-import LifeCyclesCDM from './components/LifeCyclesCDM.js';
-import LifeCyclesCDMChild from './components/LifeCyclesCDMChild';
+// import LifeCyclesCDM from './components/LifeCyclesCDM.js';
+// import LifeCyclesCDMChild from './components/LifeCyclesCDMChild';
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
       {/* <NestingComponents/> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists /> */}
-      <LifeCyclesCDM />
-      <LifeCyclesCDMChild />
+      {/* <LifeCyclesCDM />
+      <LifeCyclesCDMChild /> */}
+      {/* <LifeCyclesCDU/> */}
+      <LifeCyclesCWU/>
     </div>
   );
 }
